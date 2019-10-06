@@ -1,4 +1,4 @@
-package com.jodhpurtechies.mylogin.view
+package com.jodhpurtechies.mybubblelogin.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,8 +9,8 @@ import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import com.jodhpurtechies.mylogin.R
-import com.jodhpurtechies.mylogin.utils.MyAnimations
+import com.jodhpurtechies.mybubblelogin.R
+import com.jodhpurtechies.mybubblelogin.utils.MyAnimations
 import kotlinx.android.synthetic.main.activity_login.*
 
 
@@ -68,7 +68,7 @@ class LoginActivity : AppCompatActivity() {
                     applicationContext,
                     R.anim.fade_in
                 )
-                else -> anim = MyAnimations.overshootAnimate(viewBubble)
+                else -> anim = MyAnimations.overshootAnimate()
             }
 
             viewBubble.startAnimation(anim)
@@ -108,13 +108,13 @@ class LoginActivity : AppCompatActivity() {
                 R.id.inpUsername, R.id.inpPassword,
                 R.id.txtForgotPass, R.id.relBtnLogin,
                 R.id.relBtnLoginGoogle, R.id.relBtnLoginFacebook ->
-                    anim = MyAnimations.scaleAnimate(view,durationMillis)
+                    anim = MyAnimations.scaleAnimate(durationMillis)
 
                 R.id.txtSignUp, R.id.viewSeparator ->
                     anim = AnimationUtils.loadAnimation(applicationContext, R.anim.fade_in)
 
                 R.id.relHeader ->
-                    anim=MyAnimations.overshootAnimate(view,durationMillis)
+                    anim=MyAnimations.overshootAnimate(durationMillis)
 
             }
 

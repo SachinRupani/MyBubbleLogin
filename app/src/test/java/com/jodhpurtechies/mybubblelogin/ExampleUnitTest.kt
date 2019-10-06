@@ -1,4 +1,4 @@
-package com.jodhpurtechies.mylogin
+package com.jodhpurtechies.mybubblelogin
 
 import org.junit.Test
 

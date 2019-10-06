@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyLogin</string>
+    <string name="app_name">My Bubble Login</string>
 
     <string name="login">Log in</string>
     <string name="username">Username (Email/Phone)</string>

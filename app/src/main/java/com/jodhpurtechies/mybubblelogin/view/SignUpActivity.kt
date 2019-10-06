@@ -1,4 +1,4 @@
-package com.jodhpurtechies.mylogin.view
+package com.jodhpurtechies.mybubblelogin.view
 
 import android.os.Bundle
 import android.text.method.PasswordTransformationMethod
@@ -7,8 +7,8 @@ import android.view.animation.Animation
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
-import com.jodhpurtechies.mylogin.R
-import com.jodhpurtechies.mylogin.utils.MyAnimations
+import com.jodhpurtechies.mybubblelogin.R
+import com.jodhpurtechies.mybubblelogin.utils.MyAnimations
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUpActivity : AppCompatActivity() {
@@ -54,9 +54,9 @@ class SignUpActivity : AppCompatActivity() {
             anim = when (view.id) {
                 R.id.inpName, R.id.inpEmail,
                 R.id.inpPhone, R.id.inpPassword,
-                R.id.relBtnLogin, R.id.relBtnSignUp -> MyAnimations.scaleAnimate(view,durationMillis)
+                R.id.relBtnLogin, R.id.relBtnSignUp -> MyAnimations.scaleAnimate(durationMillis)
 
-                else -> MyAnimations.overshootAnimate(view,durationMillis)
+                else -> MyAnimations.overshootAnimate(durationMillis)
             }
 
             view.startAnimation(anim)

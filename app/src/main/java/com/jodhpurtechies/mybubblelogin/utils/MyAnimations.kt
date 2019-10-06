@@ -1,13 +1,12 @@
-package com.jodhpurtechies.mylogin.utils
+package com.jodhpurtechies.mybubblelogin.utils
 
-import android.view.View
 import android.view.animation.Animation
 import android.view.animation.OvershootInterpolator
 import android.view.animation.ScaleAnimation
 
 
 object MyAnimations {
-    fun scaleAnimate(view: View, durationMillis:Long=400L):ScaleAnimation{
+    fun scaleAnimate(durationMillis:Long=400L):ScaleAnimation{
         return ScaleAnimation(
             0f,
             1f,
@@ -23,8 +22,8 @@ object MyAnimations {
         }
     }
 
-    fun overshootAnimate(view: View, durationMillis:Long=200L):ScaleAnimation{
-        return scaleAnimate(view,durationMillis).also {
+    fun overshootAnimate(durationMillis:Long=200L):ScaleAnimation{
+        return scaleAnimate(durationMillis).also {
             it.interpolator=OvershootInterpolator()
         }
     }
