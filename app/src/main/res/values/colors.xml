@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#5E35B1</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMainBtnPressed">#9575CD</color>
+    <color name="colorMainBtn">#EDE7F6</color>
+
+    <color name="colorMainTrans1">#77B39DDB</color>
+    <color name="colorMainTrans2">#66673AB7</color>
+    <color name="colorMainTrans3">#99673AB7</color>
+
+    <color name="colorMainText">#3f4444</color>
+    <color name="colorTextHint">#b1b1b1</color>
+
+    <color name="colorRedError">#d92d2c</color>
+
+    <color name="colorGoogle">#F44336</color>
+    <color name="colorGoogleTrans">#FBE9E7</color>
+    <color name="colorGoogleTransPressed">#FF7043</color>
+
+    <color name="colorFacebook">#3F51B5</color>
+    <color name="colorFacebookTrans">#E8EAF6</color>
+    <color name="colorFacebookTransPressed">#7986CB</color>
+
+</resources>

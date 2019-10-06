@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyLogin</string>
+
+    <string name="login">Log in</string>
+    <string name="username">Username (Email/Phone)</string>
+    <string name="password">Password</string>
+
+    <string name="email">E-mail Address</string>
+    <string name="phone">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="forgot_pass">Forgot Password?</string>
+
+    <string name="google_login">Log in with Google</string>
+    <string name="fb_login">Log in with Facebook</string>
+
+</resources>

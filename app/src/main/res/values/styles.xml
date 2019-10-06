@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="MyTextRegular" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorMainText</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+    </style>
+
+    <style name="MyTextBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/colorMainText</item>
+
+    </style>
+
+    <style name="MyTextRegularSmall" parent="MyTextRegular">
+        <item name="android:textSize">@dimen/font_size_12</item>
+    </style>
+
+    <style name="MyTextError" parent="MyTextRegular">
+        <item name="android:textSize">@dimen/font_size_11</item>
+        <item name="android:textColor">@color/colorRedError</item>
+    </style>
+
+    <style name="MyTextBoldSmall" parent="MyTextBold">
+        <item name="android:textSize">@dimen/font_size_12</item>
+    </style>
+
+    <style name="MyTextRegularLarge" parent="MyTextRegular">
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+
+    <style name="MyTextBoldLarge" parent="MyTextBold">
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+
+    <style name="MyEditTextRegular" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/rubik_medium</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+    </style>
+
+    <style name="MyTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxStrokeWidth">0.8dp</item>
+
+    </style>
+
+    <style name="MyTextHint" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+    </style>
+
+</resources>
