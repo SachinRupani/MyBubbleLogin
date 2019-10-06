@@ -8,7 +8,7 @@
 
 ### Screenshots
 
-<img width="360" height="720" src="images/screenshot_login.png" alt="Image" >
-<img width="360" height="720" src="images/screenshot_sign_up.png" alt="Image" >
+<img width="360" height="640" src="images/screenshot_login.png" alt="Image" >
+<img width="360" height="640" src="images/screenshot_sign_up.png" alt="Image" >
 
 Happy coding :)
